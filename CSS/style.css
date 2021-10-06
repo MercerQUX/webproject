@@ -1,0 +1,460 @@
+@font-face {
+  font-family: OpenSans;
+  font-weight: bold;
+  src: url(../FONTS/OpenSans-Bold.ttf);
+}
+@font-face {
+  font-family: OpenSans;
+  font-weight: lighter;
+  src: url(../FONTS/OpenSans-Light.ttf);
+}
+@font-face {
+  font-family: OpenSans;
+  src: url(../FONTS/OpenSans-Regular.ttf);
+}
+@font-face {
+  font-family: OpenSans Semi;
+  src: url(../FONTS/OpenSans-Semibold.ttf);
+}
+body {
+  background: grey;
+  font-family: OpenSent Semi;
+}
+ul,
+li {
+  display: block;
+  padding: 0;
+  margin: 0;
+}
+
+ul,
+li {
+  display: block;
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+}
+ul {
+  width: 100%;
+  justify-content: end;
+}
+.logo {
+  font-weight: bold;
+  width: 118px;
+  height: 43px;
+  font-size: 2rem;
+}
+
+.menu-bar {
+  padding: 20px 0;
+  color: aqua;
+  background-color: white;
+  z-index: 9000;
+}
+
+.menu-item {
+  margin-left: 37px;
+}
+
+.menu-item a {
+  text-decoration: none;
+  font-family: "Open Sans Simbold";
+  font-size: 20px;
+  color: black;
+  font-weight: lighter;
+}
+
+.header {
+  background-size: cover;
+  color: white;
+  text-align: center;
+  background-size: cover;
+  background-image: url(../IMG/header.png);
+  background-position: 100% 80%;
+  padding: 180px 0px;
+}
+.header__title {
+  font-size: 60px;
+}
+.header__text {
+  font-size: 22px;
+  margin-bottom: 100px;
+}
+.button {
+  padding: 10px 25px;
+  color: white;
+  transition: 0.3s;
+  font-weight: bold;
+  margin: 0 10px;
+}
+.button_empty {
+  background: transparent;
+  border: 2px solid white;
+}
+.button_full {
+  background: rgb(0, 137, 123);
+  border: 2px solid rgb(0, 137, 123);
+}
+.button_empty:hover,
+.button_full:hover {
+  border: 2px solid #136b74;
+  background: #228a95;
+}
+
+.about {
+  background: white;
+  color: black;
+  text-align: center;
+  padding: 120px 0;
+}
+.about__title {
+  font-size: 30px;
+  font-weight: bold;
+  padding-bottom: 20px;
+  text-align: center;
+}
+.about__text {
+  font-size: 15px;
+  font-family: OpenSans;
+  padding-bottom: 30px;
+}
+.about__cards > i {
+  font-size: 70px;
+  padding-bottom: 20px;
+}
+.about__cards > h3 {
+  font-weight: bold;
+  font-size: 20px;
+}
+.about__cards > p {
+  font-family: OpenSans;
+  font-size: 15px;
+}
+
+.service > div {
+  background: #e4fdf9;
+}
+.service__description > h2 {
+  text-align: center;
+  padding-top: 130px;
+  padding-bottom: 20px;
+}
+.service__description > p {
+  text-align: center;
+  padding-bottom: 115px;
+}
+.service__cards {
+  margin: 0 120px;
+  padding-bottom: 120px;
+}
+.card {
+  width: 80%;
+  height: 395px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+.card-body > i {
+  font-size: 60px;
+  padding: 35px 0;
+}
+.card-body > p {
+  margin-bottom: 45px;
+}
+.card-body > a {
+  width: 150px;
+  height: 50px;
+  border: 2px solid black;
+  margin: 0 auto;
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+}
+.card:hover {
+  background: #00897b;
+  color: white;
+}
+.card:hover .button {
+  border: 2px solid white;
+  color: white;
+}
+
+.portfolio > div {
+  background: white;
+  padding: 130px 0;
+}
+.portfolio img {
+  margin-bottom: 30px;
+  justify-content: center;
+}
+.portfolio__title {
+  text-align: center;
+  padding-bottom: 35px;
+}
+.portfolio__text {
+  text-align: center;
+  padding-bottom: 115px;
+}
+.portfolio__button {
+  border: 2px solid #00897b;
+  color: black;
+}
+.portfolio__layers {
+  padding: 120px 0;
+  margin: 0px 40px;
+  text-align: center;
+}
+
+.prising {
+  background: #f0f1f1;
+  padding: 130px 0;
+}
+
+.prising__title {
+  font-size: 30px;
+  font-weight: bold;
+  padding-bottom: 20px;
+  text-align: center;
+}
+.prising__text {
+  font-size: 15px;
+  font-family: OpenSans;
+  text-align: center;
+  padding-bottom: 130px;
+}
+.price {
+  background: white;
+}
+.price__header {
+  background-image: url(../IMG/bg-form.png);
+  padding-top: 40px;
+  padding-bottom: 65px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 211px;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+}
+.price__header sell {
+  font-size: 50px;
+}
+.price__header sub {
+  font-size: 17px;
+  font-weight: 100;
+}
+.price__header dollor {
+  vertical-align: top;
+  font-size: 30px;
+  font-weight: 100;
+}
+.price__body {
+  padding: 0px 60px;
+}
+.price__body > ul > li {
+  padding-top: 28px;
+  padding-bottom: 12px;
+  margin: 0 auto;
+  max-width: 175px;
+  border-bottom: 1px solid #bfbfbf;
+}
+.price__footer {
+  padding: 60px 0;
+  text-align: center;
+}
+.price__footer button {
+  color: black;
+  background: transparent;
+  padding: 15px 30px;
+  font-size: 20px;
+  border: solid 2px black;
+}
+.price__footer button:hover {
+  border: 2px solid rgb(3, 151, 151);
+  background-color: #228a95;
+}
+.team {
+  background: white;
+  padding: 130px 0px;
+  text-align: center;
+}
+.team__text > h2 {
+  font-weight: bold;
+  font-size: 30px;
+}
+.team__text > p {
+  font-size: 15px;
+  font-family: OpenSans;
+  padding-bottom: 115px;
+}
+.team_card {
+  border: none;
+}
+.team_card:hover {
+  background: white;
+  color: black;
+}
+.team_card > h2 {
+  padding-top: 40px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.team_card > p {
+  font-size: 15px;
+  font-family: OpenSans;
+}
+.team_card > ul {
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  font-size: 45px;
+}
+.row {
+  margin: 0px !important;
+}
+.portfolio__buttons {
+  justify-content: center;
+}
+.blog {
+  padding: 125px 0px;
+  background: #e4fdf9;
+  text-align: center;
+}
+.blog__text > h2 {
+  font-weight: bold;
+  font-size: 30px;
+}
+.blog__text > p {
+  font-size: 15px;
+  font-family: OpenSans;
+  padding-bottom: 115px;
+}
+.block__text {
+  text-align: left;
+  margin-left: 230px;
+  margin-top: 60px;
+}
+.block__text > h2 {
+  font-size: 25px;
+}
+.block__text > span {
+  font-size: 17px;
+}
+.block__text > p {
+  font-family: OpenSans;
+  font-size: 15px;
+}
+.button_block {
+  padding-top: 125px;
+}
+
+.footer {
+  text-align: center;
+  padding-top: 130px;
+  padding-bottom: 110px;
+  color: white;
+  background-image: url(../IMG/foother.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.footer__text > h2 {
+  font-weight: bold;
+  font-size: 30px;
+}
+.footer__text > p {
+  font-size: 15px;
+  font-family: OpenSans;
+  padding-bottom: 100px;
+}
+.footer__icons > i {
+  color: white;
+  text-align: center;
+}
+.footer__icons > p {
+  font-size: 20px;
+  padding-top: 40px;
+  padding-bottom: 75px;
+}
+.circle {
+  font-size: 52px;
+  background: #3949ab;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+}
+.footer input,
+.footer textarea {
+  padding: 30px;
+  border: none;
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 35px;
+  resize: none;
+}
+.footer button {
+  padding: 20px 80px;
+  font-size: 20px;
+  border-radius: 10px;
+  color: black;
+  border: none;
+}
+
+.back-footer {
+  background: white;
+}
+.back-footer p {
+  font-weight: bold;
+  font-size: 20px;
+  padding-top: 20px;
+}
+
+.modal {
+  margin-top: 0px;
+  transition: 1s;
+}
+.modal-header,
+.modal-footer {
+  background: #007bff;
+}
+
+.modal-body {
+  background: #ffffff;
+  border-top: 1px solid #007bff;
+  border-bottom: 1px solid #007bff;
+}
+
+.modal h5 {
+  font-size: 30px;
+  text-align: center;
+  font-weight: bold;
+  color: #3949ab;
+}
+.modal input {
+  font-size: 22px;
+  font-weight: bold;
+  width: 100%;
+  background: #007bff;
+  color: white;
+  margin: 10px 0px;
+  border-radius: 5%;
+  height: 60px;
+  outline: none;
+  padding: 10px;
+}
+.modal input::placeholder {
+  color: #3949ab;
+}
+.modal p {
+  text-align: center;
+  padding-top: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #3949ab;
+}
+.close {
+  font-size: 2rem;
+}

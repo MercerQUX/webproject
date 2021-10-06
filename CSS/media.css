@@ -1,0 +1,90 @@
+@media (max-width: 600px) {
+  .portfolio img {
+    width: 100%;
+  }
+  .header__title {
+    font-size: 50px;
+  }
+  .blog img {
+    max-width: 280px;
+  }
+  .modal-dialog {
+    z-index: 2000;
+  }
+  .menu-bar {
+    z-index: 1000;
+  }
+  .modal h5 {
+    font-size: 24px;
+  }
+  .modal input {
+    font-size: 20px;
+    height: 50px;
+  }
+}
+
+@media (max-width: 1023px) {
+  .title-text,
+  .service__description > h2,
+  .portfolio__title,
+  .prising__title,
+  .team__text > h2,
+  .blog__text > h2 {
+    font-size: 2.3rem;
+  }
+  .card-body {
+    padding: 0.25rem;
+  }
+  .about__text,
+  .service__description > p,
+  .portfolio__text,
+  .prising__text,
+  .team__text > p,
+  .blog__text > p {
+    font-size: 18px;
+    font-family: OpenSans;
+  }
+  .about__cards > h3 {
+    font-size: 1.8rem !important;
+  }
+  .about__cards > p {
+    font-size: 1.2rem !important;
+    margin-bottom: 70px;
+  }
+  .card p {
+    font-size: 1.4rem;
+  }
+  .card {
+    width: 90%;
+    height: 600px;
+  }
+  .portfolio__button {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .img-blog {
+    margin-bottom: -40px;
+  }
+  ul {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding-top: 20px;
+  }
+  .menu-item {
+    margin-left: 0px;
+  }
+  .menu-item a {
+    font-size: 24px;
+  }
+}
+@media (max-width: 1200px) {
+  .block__text {
+    margin-left: 0px;
+  }
+}
+.portfolio__button {
+  width: 100%;
+  margin-top: 20px;
+}
